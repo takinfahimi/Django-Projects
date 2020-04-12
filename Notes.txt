@@ -1,0 +1,27 @@
+1 - Db hele lazim deyil, db connection sonra baxacam
+2- static folderini yaradib css / js fayllari atdim icine 
+3- template folderini yaratdim
+4- External template faylindan index.html-i view-den cagirmaqda qaldim
+5- base.html fayli yaratdim - fayl esas templates folderinin icinde olmasi lazimdir. Cox rahat sekilde load etmek olur. ** load static mutleq child faylda da olmalidir ** 
+
+6- RegEx-ləri öyrənmək lazım -- İD charfield statik olmasını onunla etmək olar: https://stackoverflow.com/questions/2470760/django-charfield-with-fixed-length-how
+7- User və Course modelləri yaradıldı 
+8- Django əsas səhifə olaraq öncə Project url-ində adı qeyd ediləni çağırır. Qalanlar onun alt səhifələri olur 	    mainpage/register kimi. --r'^register/$'--
+9- FORM-lara giriş edib söhbəti biraz tutdum - Forms.py faylı yaradılıb orda fieldlər və forma üçün ayrı funksiya təyin olundu. Modellərdən vievv-a bağladım. Qaldı bütün bunları birləşdirib template-də göstərmək
+10- Form işləyir - niyəsə İF POST şərti ilə olanda işləmədi
+11- Redirect elədim səhifələr arasında
+12- BootStrap istifadə edərək Form-u səliqəyə saldım. 
+13- ModelChoiceField - istifadə edərək Forms içində başqa bir model-dən data çəkdim. o data-nı
+14- Model-ləri admin.py-da register etmək lazımdır ki Admin dashboard-da görünsün
+
+
+
+Öyrənilməli: 
+* AJAX / JQUERY / AngularJS
+* Python Classes
+* Review Html / Css / Js
+* bootstrap
+
+
+ModelForms-da bir field - başqa bir table-dan select edib göstərir.
+    - ModelForms select from two tables
